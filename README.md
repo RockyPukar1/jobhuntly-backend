@@ -84,3 +84,12 @@ This repository contains the codebase for backend comprehensive job hunting webs
 ### 16. Educational Resources
 
 - Articles, blog posts, and webinars to help job seekers improve their skills.
+
+
+## API Format
+    {
+        result/data: any,
+        msg: String,
+        status: boolean,
+        meta: array | object | null
+    }
